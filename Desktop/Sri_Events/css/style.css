@@ -1,0 +1,392 @@
+/* Google Fonts */
+
+
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap');
+
+* {
+    box-sizing: border-box;
+    /* Using for global selector */
+}
+
+header,
+section {
+	
+    overflow-x: hidden;
+	overflow-y:hidden;
+	
+}
+
+:root {
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255.0.2)
+}
+
+header a {
+    font-family: var(--Sniglet-font);
+    font-size: 0.9em;
+    color: white;
+}
+
+header {
+	width: 100%;
+    height: 70vmin;
+    background: #FF1493;
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+
+}
+
+
+header.nav-item:last-child {
+    padding-right: 10.5em;
+    /* Relative Units in CSS em,rem vem */
+}
+
+header.nav-item {
+    padding: 0.8em;
+}
+
+header .navbar-brand {
+    padding-left: 4rem;
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+header .row.col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row.col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--Rubik);
+    color: white;
+}
+
+header .row.col-md-5 img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+header.containter.col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header.contiainer.col-md-7 h1 {
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+	color:rgba(0, 0, 0, 0.5)
+}
+
+header.contiainer.col-md-7 p {
+    padding: 1vmin 5vmin;
+}
+
+header.contiainer.col-md-7 button {
+    border-radius: 30px;
+    font-weight: bold;
+	
+	
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: visible;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+min-width: 100%;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* section 1 */
+.section-1 {
+    padding: 20vmin 0;
+}
+
+.section-1 .row.col-md-6 .pray img {
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 8px;}
+
+.section-1 .row.col-md-6:last-child {
+    position: relative;
+}
+
+.section-1 .row.col-md-6 .panel {
+    position: relative;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+}
+
+.section-1 .row.col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+
+.section-1 .row.col-md-6 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+/* section 2 */
+.section-2 {
+    padding: 20vmin 0;
+}
+
+.section-2 .row.col-md-6 .pray img {
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.section-2 .row.col-md-6:last-child {
+    position: relative;
+}
+
+.section-2 .row.col-md-6 .panel {
+    position: relative;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+}
+
+.section-2 .row.col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+
+.section-2 .row.col-md-6 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5)
+}
+/* section 3 */
+.section-3 {
+    padding: 20vmin 0;
+}
+
+.section-3 .row.col-md-6 .pray img {
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 8px;}
+
+.section-3 .row.col-md-6:last-child {
+    position: relative;
+}
+
+.section-3 .row.col-md-6 .panel {
+    position: relative;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+}
+
+.section-3 .row.col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+
+.section-3 .row.col-md-6 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5)
+}
+/* section 4 */
+.section-4 {
+    padding: 20vmin 0;
+}
+
+.section-4 .row.col-md-6 .pray img {
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 8px;}
+
+.section-4 .row.col-md-6:last-child {
+    position: relative;
+}
+
+.section-4 .row.col-md-6 .panel {
+    position: relative;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+}
+
+.section-4 .row.col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+
+.section-4 .row.col-md-6 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5)
+}
+/* section 5 */
+.section-5 {
+    padding: 20vmin 0;
+}
+
+.section-5 .row.col-md-6 .pray img {
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 8px;}
+
+.section-5 .row.col-md-6:last-child {
+    position: relative;
+}
+
+.section-5 .row.col-md-6 .panel {
+    position: relative;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+}
+
+.section-5 .row.col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+
+.section-5 .row.col-md-6 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5)
+}
+/* Footer */
+
+footer {
+   /* background: transparent; */
+    background: rgba(255, 255, 255, 0);
+ 
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+    
+}
+
+footer p>span {
+    color: #ff512f;
+}
+footer .column i {
+    color: #dd2476;
+}
+
+footer.column i+i {
+    padding: 0 0.9em;
+}
+
+/* Sticky Class */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
